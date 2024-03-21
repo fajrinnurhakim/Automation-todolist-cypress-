@@ -1,7 +1,7 @@
 describe("Todolist Website", () => {
-  beforeEach(() => {
-      cy.visit(Cypress.env("BASE_URL"));
-  });
+    beforeEach(() => {
+        cy.visit(Cypress.env("BASE_URL"));
+    });
 
-  it("Display Todolist Website", () => {});
+    it("Display Todolist Website", () => {});
 });
